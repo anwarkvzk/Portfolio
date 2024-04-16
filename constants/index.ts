@@ -1,10 +1,10 @@
 export const Skill_data = [
   // {
-  //   skill_name: "Html 5",
-  //   Image: "/html.png",
+  //   skill_name: "",
+  //   Image: "",
   //   width: 80,
   //   height: 80,
-  // },
+  // }
   // {
   //   skill_name: "Css",
   //   Image: "/css.png",
@@ -244,8 +244,8 @@ export const Full_stack = [
 
 export const Other_skill = [
   // {
-  //   skill_name: "Go",
-  //   Image: "/go.png",
+  //   skill_name: "",
+  //   Image: "",
   //   width: 60,
   //   height: 60,
   // },

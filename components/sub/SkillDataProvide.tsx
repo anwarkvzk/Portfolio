@@ -5,10 +5,10 @@ import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
 interface Props {
-  src: String;
-  width: Number;
-  height: Number;
-  index: Number;
+  src: string ;
+  width: number;
+  height: number;
+  index: number;
 }
 
 const SkillDataProvide = ({src, width, height, index}: Props) => {

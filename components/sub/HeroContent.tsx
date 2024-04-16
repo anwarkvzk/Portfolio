@@ -11,14 +11,14 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center  lg:px-20 px-5 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="text-[#b49bff] max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
             Mern Stack Developer Portfolio
           </h1>
@@ -29,7 +29,10 @@ const HeroContent = () => {
         >
           <span>
             Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              the best{" "}
+            </span>
             Project Experience
           </span>
         </motion.div>
@@ -41,10 +44,11 @@ const HeroContent = () => {
           check out my projects and skills
         </motion.p>
         <motion.a
+          href="/anwarresume.pdf"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Download Resume
         </motion.a>
       </div>
       <motion.div

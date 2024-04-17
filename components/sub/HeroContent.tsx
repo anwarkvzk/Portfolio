@@ -3,7 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import { CodeBracketSquareIcon } from "@heroicons/react/24/solid";
+
 import Image from "next/image";
 
 const HeroContent = () => {
@@ -18,7 +19,7 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
+          <CodeBracketSquareIcon className="text-[#b49bff] max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
             Mern Stack Developer Portfolio
           </h1>

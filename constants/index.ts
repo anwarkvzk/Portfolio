@@ -85,8 +85,9 @@ export const Socials = [
     src: "/instagram.svg",
   },
   {
-    name: "Facebook",
+    name: "Linked-in",
     src: "/linkedin.svg",
+    href: "https://www.linkedin.com/in/anwar-k/",
   },
   {
     name: "Whatsapp",

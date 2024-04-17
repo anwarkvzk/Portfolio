@@ -1,13 +1,19 @@
-import { Backend_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from '@/constants'
-import React from 'react'
-import SkillDataProvide from '../sub/SkillDataProvide'
-import SkillText from '../sub/SkillText'
+import {
+  Backend_skill,
+  Frontend_skill,
+  Full_stack,
+  Other_skill,
+  Skill_data,
+} from "@/constants";
+import React from "react";
+import SkillDataProvide from "../sub/SkillDataProvide";
+import SkillText from "../sub/SkillText";
 
 const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center gap-3 h-full relative overflow-hidden pb-80  py-20"
+      className="flex flex-col items-center gap-3   relative overflow-hidden pb-32 py-20"
       style={{ transform: "scale(0.9" }}
     >
       <SkillText />
@@ -46,8 +52,8 @@ const Skills = () => {
         ))}
       </div>
 
-      <div className="flex flex-row  justify-around flex-wrap mt-4 gap-5 items-center">
-        {/* {Other_skill.map((image, index) => (
+      {/* <div className="flex flex-row  justify-around flex-wrap mt-4 gap-5 items-center">
+        {Other_skill.map((image, index) => (
           <SkillDataProvide
             key={index}
             src={image.Image}
@@ -55,8 +61,8 @@ const Skills = () => {
             height={image.height}
             index={index}
           />
-        ))} */}
-      </div>
+        ))}
+      </div> */}
       <div className="w-full h-full absolute">
         <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
           <video
@@ -72,6 +78,6 @@ const Skills = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Skills
+export default Skills;

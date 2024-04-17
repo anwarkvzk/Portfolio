@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen  w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
+    <div className="flex flex-row relative items-center justify-center  min-h-[60dvh] max-sm:min-h-[80dvh]  w-full ">
+      <div className="absolute w-auto lg:h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
@@ -20,7 +20,7 @@ const Encryption = () => {
           Security
         </motion.div>
       </div>
-      <div className="flex flex-col items-center translate-y-[-50px] absolute z-[20] absolute w-auto h-auto">
+      <div className="flex flex-col items-center translate-y-[-50px] z-[20] absolute w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
             src="/LockTop.png"
@@ -41,12 +41,12 @@ const Encryption = () => {
           <h1 className="Welcome-text text-[12px]">Encryption</h1>
         </div>
       </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
+      <div className="absolute z-[20] max-sm:bottom-[8rem] bottom-[10px] px-[5px] ">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
           Secure your data with end-to-end encryption
         </div>
       </div>
-      <div className="w-full flex items-start  justify-center absolute ">
+      <div className="w-full flex items-start justify-center absolute">
         <video
           loop
           muted

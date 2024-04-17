@@ -20,13 +20,13 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <CodeBracketSquareIcon className="text-[#b49bff] max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
+          <h1 className="Welcome-text text-[13px] italic hover:not-italic subpixel-antialiased ">
             Mern Stack Developer Portfolio
           </h1>
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto italic hover:not-italic subpixel-antialiased "
         >
           <span>
             Providing
@@ -39,7 +39,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-5 max-w-[600px] italic hover:not-italic subpixel-antialiased "
         >
           I&apos;m a Mern Stack Software engineer with in website development.
           check out my projects and skills
@@ -47,7 +47,7 @@ const HeroContent = () => {
         <motion.a
           href="/anwarresume.pdf"
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] italic hover:not-italic subpixel-antialiased "
         >
           Download Resume
         </motion.a>

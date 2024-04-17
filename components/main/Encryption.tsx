@@ -42,7 +42,7 @@ const Encryption = () => {
         </div>
       </div>
       <div className="absolute z-[20] max-sm:bottom-[8rem] bottom-[10px] px-[5px] ">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
+        <div className="cursive text-[20px] font-medium text-center text-gray-300 italic hover:not-italic subpixel-antialiased ">
           Secure your data with end-to-end encryption
         </div>
       </div>

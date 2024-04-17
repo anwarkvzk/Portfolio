@@ -83,6 +83,7 @@ export const Socials = [
   {
     name: "Instagram",
     src: "/instagram.svg",
+    href: "https://www.instagram.com/anwar_kx",
   },
   {
     name: "Linked-in",
@@ -92,6 +93,7 @@ export const Socials = [
   {
     name: "Whatsapp",
     src: "/whatsapp.svg",
+    href: "https://wa.me/9744433064",
   },
 ];
 

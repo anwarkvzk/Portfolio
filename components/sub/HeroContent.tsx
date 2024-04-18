@@ -19,14 +19,17 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <CodeBracketSquareIcon className="text-[#b49bff] max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px] italic hover:not-italic subpixel-antialiased ">
+          <CodeBracketSquareIcon className="text-[#b49bff]  max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
+          <h1 className=" max-sm:block lg:hidden text-[13px] max-sm:text-cyan-400  bg-clip-text bg-gradient-to-r  ">
+            Mern Stack Developer Portfolio
+          </h1>
+          <h1 className="text-[13px] hidden lg:block Welcome-text ">
             Mern Stack Developer Portfolio
           </h1>
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto italic hover:not-italic subpixel-antialiased "
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -39,15 +42,17 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px] italic hover:not-italic subpixel-antialiased "
+          className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Mern Stack Software engineer with in website development.
-          check out my projects and skills
+          Experienced MERN Stack Developer proficient in MongoDB, Express.js,
+          React.js, and Node.js technologies. Skilled in building robust web
+          applications and APIs. Demonstrates a strong ability to collaborate
+          effectively in dynamic environments, delivering innovative solutions.
         </motion.p>
         <motion.a
           href="/anwarresume.pdf"
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] italic hover:not-italic subpixel-antialiased "
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Download Resume
         </motion.a>

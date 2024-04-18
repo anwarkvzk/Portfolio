@@ -10,12 +10,29 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 lg:py-20 italic hover:not-italic subpixel-antialiased ">
         My Projects
       </h1>
-      <div className="h-full lg:w-1/2 w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/Ecommerce.png"
-          title="Ecommerce website"
-          description="something"
-        />
+      <div className="container mx-auto py-16 px-16 ">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-4 ">
+          <ProjectCard
+            src="/Ecommerce.png"
+            title="Ecommerce website"
+            description="something"
+          />
+          <ProjectCard
+            src="/Ecommerce.png"
+            title="Ecommerce website"
+            description="something"
+          />
+          <ProjectCard
+            src="/Ecommerce.png"
+            title="Ecommerce website"
+            description="something"
+          />
+          <ProjectCard
+            src="/Ecommerce.png"
+            title="Ecommerce website"
+            description="something"
+          />
+        </div>
       </div>
     </div>
   );

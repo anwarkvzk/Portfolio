@@ -14,11 +14,11 @@ const ProjectCard = ({ src, title, description }: Props) => {
     alt={title}
     width={1000}
     height={1000}
-    className="w-full object-contain"
+    className="w-full object-contain rounded-t-lg"
     />
-    <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+    <div className="relative p-5">
+        <h1 className="text-2xl font-semibold text-white p-5 mb-3">{title}</h1>
+        <p className="mt-2 font-normal text-gray-300 mb-3">{description}</p>
 
     </div>
   </div>;

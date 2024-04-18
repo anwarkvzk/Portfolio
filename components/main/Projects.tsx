@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col items-center justify-center lg:py-20"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 lg:py-20 italic hover:not-italic subpixel-antialiased ">
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 lg:py-20 animate-pulse ">
         My Projects
       </h1>
       <div className="container mx-auto py-16 px-16 ">

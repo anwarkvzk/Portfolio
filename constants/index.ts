@@ -81,14 +81,14 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Instagram",
-    src: "/instagram.svg",
-    href: "https://www.instagram.com/anwar_kx",
-  },
-  {
     name: "Linked-in",
     src: "/linkedin.svg",
     href: "https://www.linkedin.com/in/anwar-k/",
+  },
+  {
+    name: "GitHub",
+    src: "/github (1).svg",
+    href: "https://github.com/anwarkvzk",
   },
   {
     name: "Whatsapp",

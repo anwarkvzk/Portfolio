@@ -20,10 +20,10 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <CodeBracketSquareIcon className="text-[#b49bff]  max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
-          <h1 className=" max-sm:block lg:hidden text-[13px] max-sm:text-cyan-400  bg-clip-text bg-gradient-to-r  ">
+          <h1 className=" max-sm:block md:hidden text-[13px] max-sm:text-cyan-400  bg-clip-text bg-gradient-to-r  ">
             Mern Stack Developer Portfolio
           </h1>
-          <h1 className="text-[13px] hidden lg:block Welcome-text ">
+          <h1 className="text-[13px] hidden  md:block Welcome-text ">
             Mern Stack Developer Portfolio
           </h1>
         </motion.div>
@@ -32,8 +32,8 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <h1 className="mb-2">Providing</h1>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
               {" "}
               the best{" "}
             </span>

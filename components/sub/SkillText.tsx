@@ -13,7 +13,7 @@ const SkillText = () => {
       >
         <ComputerDesktopIcon className="text-[#b49bff]  max-sm:text-yellow-500 mr-[10px] h-5 w-5" />
         <h1 className="Welcome-text text-[13px] italic hover:not-italic subpixel-antialiased ">
-          Think better with Next Js 13
+          I Speak Business & Code: MERN Stack Developer + BBA Graduate
         </h1>
       </motion.div>
       <motion.div
@@ -26,7 +26,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center italic hover:not-italic subpixel-antialiased "
       >
-        Never miss a task deadline or idea
+        Code with a Business Mindset: Transforming Ideas into Web Realities
       </motion.div>
     </div>
   );

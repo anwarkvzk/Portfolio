@@ -15,23 +15,14 @@ const Projects = () => {
           <ProjectCard
             src="/Ecommerce.png"
             title="Ecommerce website"
-            description="something"
+            description="MERN e-commerce: Robust, seamless shopping with MongoDB, Express.js, React, and Node.js."
           />
           <ProjectCard
-            src="/Ecommerce.png"
-            title="Ecommerce website"
-            description="something"
+            src="/afoodordering.png"
+            title="Eatgo.com"
+            description="Elevate food-ordering with our MERN project, powered by TypeScript. Seamless, reliable, and simple, we're redefining the user experience from start to finish"
           />
-          <ProjectCard
-            src="/Ecommerce.png"
-            title="Ecommerce website"
-            description="something"
-          />
-          <ProjectCard
-            src="/Ecommerce.png"
-            title="Ecommerce website"
-            description="something"
-          />
+        
         </div>
       </div>
     </div>
